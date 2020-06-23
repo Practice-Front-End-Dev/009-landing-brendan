@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/* Default css overide */
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+/***************************
+BACKGROUND
+***************************/
+
+.bg-img {
+	height: 100%;
+	width: 100%;
+	padding-top: 10px;
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.6),
+		rgba(0, 0, 0, 0.6)), url("../img/fitness.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/****************************
+CONTENT
+****************************/
+
+.div-cta {
+	display: block;
+	position: relative;
+	top: 23%;
+	width: 100%;
+	text-align: center;
+
+}
+
+h1 {
+	color: #F9F3F4;
+	font-family: 'Raleway', sans-serif;
+	font-size: 3.6em;
+	font-weight: 600;
+	letter-spacing: -0.01em;
+	text-shadow: 0px 0px 300px black;
+	padding-bottom: 10px;
+}
+
+/****************************
+BUTTON
+****************************/
+
+.button-cta {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.7em;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 300px #fff;
+	border: solid #fff 3px;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+
+.button-cta:hover {
+	color: #FFF;
+	border: solid #FFF 3px;
+	text-shadow: 0px 0px 100px black;
+}
+
+/****************************
+MOBILE
+****************************/
+
+@media screen and (max-width: 720px) {
+	.div-cta {
+		top: 27%; }
+
+	h1 {
+		font-size: 3.2em;
+	}
+
+	.button-cta {
+		font-size: 1.3em;
+		border-radius: 8px;
+		padding: 8px 16px;
+
+	}
+
+	br {
+		display: none;
+	}
+
+}
