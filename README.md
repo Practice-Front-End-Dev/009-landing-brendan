@@ -1,5 +1,5 @@
 # Brendan's site
 
-https://practice-web-design.github.io/lp-project-003/
+https://practice-web-dev.github.io/web-003-brendan-site/
 
 (This page was previously live ...)
