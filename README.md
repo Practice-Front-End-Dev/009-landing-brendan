@@ -1,5 +1,5 @@
-# Brendan's site
+## Full screen landing page
 
-https://practice-front-end-dev.github.io/009-landing-brendan/
+https://practice-web-sites.github.io/brendan-norberto/
 
 (This page was previously live ...)
