@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+/* @import url('https://fonts.googleapis.com/css?family=Raleway:400,600');
+@import url('https://fonts.googleapis.com/css?family=Oswald'); */
 
 /* Default css overide */
 html, body {
@@ -93,5 +93,4 @@ MOBILE
 	br {
 		display: none;
 	}
-
 }
