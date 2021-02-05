@@ -20,7 +20,8 @@ BACKGROUND
 	overflow: hidden;
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.6),
-		rgba(0, 0, 0, 0.6)), url("img/fitness.jpg");
+		rgba(0, 0, 0, 0.6)),
+		url("img/fitness.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
